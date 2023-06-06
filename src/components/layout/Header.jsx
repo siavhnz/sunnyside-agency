@@ -3,7 +3,7 @@ import Menu from "../menu/Menu";
 
 const Header = () => {
   return (
-    <header className="bg-sky-400 flex justify-between pt-8 px-6">
+    <header className="flex justify-between pt-8 pb-8 px-6 relative">
       <Logo />
       <Menu />
     </header>

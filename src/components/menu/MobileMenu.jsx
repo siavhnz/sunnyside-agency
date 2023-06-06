@@ -15,7 +15,7 @@ const MobileMenu = ({ handleCloseMenu }) => {
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0 }}
-        className="absolute py-10 right-6 top-[6.65rem] w-[calc(100%_-_3rem)] text-center bg-white px-8 before:content-[''] before:absolute before:-top-6 before:right-0 before:border-white before:border-r-[1.5rem] before:border-t-[1.5rem] before:border-t-transparent"
+        className="absolute py-10 right-6 top-[6.65rem] w-[calc(100%_-_3rem)] text-center bg-white px-8 before:content-[''] before:absolute before:-top-[1.45rem] before:right-0 before:border-white before:border-r-[1.5rem] before:border-t-[1.5rem] before:border-t-transparent"
       >
         <ul className="flex flex-col gap-y-7">
           <MobileMenuItem item="about" />
