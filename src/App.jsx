@@ -1,5 +1,7 @@
+import Sunnyday from "./pages/Sunnyday";
+
 function App() {
-  return <>landingpage</>;
+  return <Sunnyday />;
 }
 
 export default App;
