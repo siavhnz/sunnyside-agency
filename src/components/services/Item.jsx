@@ -3,7 +3,7 @@ const ServiceItem = ({ mobileImg, desktopImg, title, desc, color }) => {
     <article className="mb-16">
       <picture>
         <source media="(max-width:599px)" srcSet={mobileImg} />
-        <source media="(min-width:6000px)" srcSet={desktopImg} />
+        <source media="(min-width:600px)" srcSet={desktopImg} />
         <img src={mobileImg} alt={title} />
       </picture>
       <div className="px-7 pt-16 leading-10">

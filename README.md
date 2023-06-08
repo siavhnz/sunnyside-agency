@@ -45,7 +45,7 @@ Users should be able to:
   - 3.style component
   - 4.Add functionality if exists
   - 5.go to step 1
-  - Header, Menu,
+  - Header, Menu, Hero, Services, Informs, Testimonials,
 
 ### Work Time
 
@@ -54,7 +54,8 @@ Users should be able to:
 ### Built with
 
 - React
--TailwindCss
+- [TailwindCss](https://tailwindcss.com/)
+- [Miragejs](https://miragejs.com/)
 
 ### What I learned
 
