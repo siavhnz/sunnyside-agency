@@ -9,13 +9,13 @@ const MobileMenu = ({ handleCloseMenu }) => {
         animate={{ opacity: 0.05 }}
         exit={{ opacity: 0 }}
         onClick={handleCloseMenu}
-        className="fixed top-0 bottom-0 left-0 right-0 bg-black"
+        className="fixed top-0 bottom-0 left-0 right-0 bg-black md:hidden"
       />
       <motion.nav
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0 }}
-        className="absolute py-10 right-6 top-[6.65rem] w-[calc(100%_-_3rem)] text-center bg-white px-8 before:content-[''] before:absolute before:-top-[1.45rem] before:right-0 before:border-white before:border-r-[1.5rem] before:border-t-[1.5rem] before:border-t-transparent"
+        className="absolute py-10 right-6 top-[6.65rem] w-[calc(100%_-_3rem)] text-center bg-white px-8 before:content-[''] before:absolute before:-top-[1.45rem] before:right-0 before:border-white before:border-r-[1.5rem] before:border-t-[1.5rem] before:border-t-transparent md:hidden max-w-sm"
       >
         <ul className="flex flex-col gap-y-7">
           <MobileMenuItem item="about" />

@@ -18,6 +18,9 @@ export default {
         Barlow: ["Barlow", "sans-serif"],
         Fraunces: ["Fraunces", "serif"],
       },
+      screens: {
+        "2xl": "1440px",
+      },
     },
   },
   plugins: [],
