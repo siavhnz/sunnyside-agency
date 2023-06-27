@@ -11,9 +11,6 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
 - [My process](#my-process)
   - [Work time](#work-time)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -28,13 +25,13 @@ Users should be able to:
 
 ### Screenshot
 
-![screenshot](?)
+![screenshot](./screenshot/screenshot.png)
 
 ### Links
 
-- Solution: [frontendmentor.io](https://www.frontendmentor.io/solutions/?)
+- Solution: [frontendmentor.io](https://www.frontendmentor.io/solutions/sunnyside-agency-landing-page-9G0U7e3H86)
 
-- Live Site: [cloudflare](https://?.pages.dev)
+- Live Site: [cloudflare](https://sunnyside-agency-2jc.pages.dev)
 
 ## My process
 
@@ -45,23 +42,17 @@ Users should be able to:
   - 3.style component
   - 4.Add functionality if exists
   - 5.go to step 1
-  - Header, Menu, Hero, Services, Informs, Testimonials,
+  - Header, Menu, Hero, Services, Informs, Testimonials, Gallery, Footer
 
 ### Work Time
 
-- [My Clockify Report](https://app.clockify.me/shared/?)
+- [My Clockify Report](https://app.clockify.me/shared/649b45852ede6550eef31fe7)
 
 ### Built with
 
-- React
+- [React](https://react.dev)
 - [TailwindCss](https://tailwindcss.com/)
-- [Miragejs](https://miragejs.com/)
-
-### What I learned
-
-### Continued development
-
-### Useful resources
+- [Framer Motion](https://framer.com/motion)
 
 ## Author
 
