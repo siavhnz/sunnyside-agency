@@ -6,6 +6,7 @@ export default {
       colors: {
         "soft-red": "hsl(7, 99%, 70%)",
         "soft-yellow": "hsl(51, 100%, 49%)",
+        "very-soft-yellow": "rgb(254, 251, 249)",
         "very-dark-desaturated-blue": "hsl(212, 27%, 19%)",
         "very-dark-grayish-blue": "hsl(213, 9%, 39%)",
         "light-blue": "rgb(134, 204, 250)",
@@ -14,6 +15,7 @@ export default {
         "dark-desaturated-cyan": "hsl(167, 40%, 24%)", //graphic design text
         "dark-blue": "hsl(198, 62%, 26%)", //photography text
         "dark-moderate-cyan": "hsl(168, 34%, 41%)", //footer
+        "very-light-cyan": "rgb(159,211,197)",
       },
       fontFamily: {
         Barlow: ["Barlow", "sans-serif"],

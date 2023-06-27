@@ -756,9 +756,19 @@ video {
   background-color: hsl(51 100% 49% / var(--tw-bg-opacity));
 }
 
+.bg-very-soft-yellow {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 251 249 / var(--tw-bg-opacity));
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-very-light-cyan {
+  --tw-bg-opacity: 1;
+  background-color: rgb(159 211 197 / var(--tw-bg-opacity));
 }
 
 .px-1 {

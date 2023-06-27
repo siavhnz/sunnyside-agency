@@ -7,7 +7,7 @@ import { ReactComponent as Facebook } from "../../assets/images/icon-facebook.sv
 
 const Footer = () => {
   return (
-    <footer className="py-16 bg-dark-moderate-cyan flex flex-col items-center 3xl:mr-auto 3xl:ml-auto max-w-screen-3xl">
+    <footer className="py-16 bg-very-light-cyan flex flex-col items-center 3xl:mr-auto 3xl:ml-auto max-w-screen-3xl">
       <Logo style="text-dark-desaturated-cyan w-[10.5rem] pr-2 lg:pt-2 lg:w-[11rem]" />
       <FooterMenu />
       <div className="flex pt-20 lg:mt-2 gap-x-7">
