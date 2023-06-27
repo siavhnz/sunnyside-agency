@@ -18,14 +18,14 @@ const ServiceItem = ({
         <img
           src={mobileImg}
           alt={title}
-          className="md:p-4 lg:p-0 sm:w-full md:w-auto"
+          className="md:p-4 lg:p-0 sm:w-full"
         />
       </picture>
       <div
         className={`px-7 pt-16 text-center lg:text-left leading-10 lg:gap-y-6 lg:max-w-[28.5rem] lg:leading-[3rem] lg:p-0 lg:flex lg:flex-col lg:justify-center md:justify-self-center ${
           direction === "right"
-            ? "md:-order-1 xl:justify-self-end xl:mr-24"
-            : "xl:justify-self-start xl:ml-28"
+            ? "md:-order-1 xl:justify-self-end xl:mr-24 2xl:place-self-center 2xl:mr-0"
+            : "xl:justify-self-start xl:ml-28 2xl:place-self-center 2xl:ml-0"
         }`}
       >
         <h2 className=" font-Fraunces text-[2rem] xl:text-[2.6rem] text-very-dark-desaturated-blue">

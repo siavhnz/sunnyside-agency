@@ -2,7 +2,7 @@ import { gallery } from "../../store/gallery";
 
 const Gallery = () => {
   return (
-    <div className="grid grid-cols-2 pt-8 lg:pt-24 lg:mt-1 lg:flex 2xl:mr-auto 2xl:ml-auto max-w-screen-2xl">
+    <div className="grid grid-cols-2 pt-8 lg:pt-24 lg:mt-1 lg:flex 3xl:mr-auto 3xl:ml-auto max-w-screen-3xl">
       {gallery.map((item, index) => {
         return (
           <picture key={index}>

@@ -4,7 +4,7 @@ import InformItem from "./Item";
 const InformsList = () => {
   const colors = ["text-dark-desaturated-cyan", "text-dark-blue"];
   return (
-    <div className="md:grid md:grid-cols-2  2xl:mr-auto 2xl:ml-auto max-w-screen-2xl">
+    <div className="md:grid md:grid-cols-2  3xl:mr-auto 3xl:ml-auto max-w-screen-3xl">
       {informs.map((inform, index) => {
         return (
           <InformItem

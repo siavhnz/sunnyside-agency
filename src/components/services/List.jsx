@@ -4,8 +4,7 @@ import ServiceItem from "./Item";
 const ServicesList = () => {
   const colors = ["bg-soft-yellow", "bg-soft-red"];
   return (
-    //className="2xl:mr-auto 2xl:ml-auto max-w-screen-2xl"
-    <div className="md:pt-14 lg:pt-0">
+    <div className="md:pt-14 lg:pt-0 3xl:mr-auto 3xl:ml-auto max-w-screen-3xl">
       {services.map((service, index) => {
         return (
           <ServiceItem

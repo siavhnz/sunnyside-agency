@@ -16,7 +16,7 @@ const DesktopMenu = () => {
         <li className="self-center">
           <a
             href="#"
-            className="uppercase font-Fraunces flex justify-center items-center px-8 py-4 bg-soft-yellow rounded-[3rem] md:bg-white md:px-7 md:hover:bg-sky-200 md:hover:text-white transition-all duration-700"
+            className="uppercase font-Fraunces flex justify-center items-center px-8 py-4 bg-soft-yellow rounded-[3rem] md:bg-white md:px-7 md:hover:bg-light-blue md:hover:text-white transition-all duration-700"
           >
             contact
           </a>

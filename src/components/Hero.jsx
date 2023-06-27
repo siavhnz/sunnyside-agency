@@ -4,7 +4,7 @@ import { ReactComponent as ArrowDown } from "../assets/images/icon-arrow-down.sv
 
 const Hero = () => {
   return (
-    <div className="-mt-[5.6rem] grid grid-cols-1 grid-rows-1 md:-mt-[7.75rem]  2xl:mr-auto 2xl:ml-auto max-w-screen-2xl">
+    <div className="-mt-[5.6rem] grid grid-cols-1 grid-rows-1 md:-mt-[7.75rem] 3xl:mr-auto 3xl:ml-auto max-w-screen-3xl">
       <picture className="col-span-full row-span-full mr-auto ml-auto">
         <source srcSet={MobileHeaderImg} media="(max-width: 750px)" />
         <source srcSet={DesktopHeaderImg} media="(min-width: 751px)" />
